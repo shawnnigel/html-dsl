@@ -9,5 +9,7 @@ html=HtmlDsl.new do
     end
    end
  end
-
- puts html.result
+      filen=__FILE__
+      filen=filen.rpartition('.').first+".html"
+      f=File.new(filen,"w")
+      f.write(html.result)

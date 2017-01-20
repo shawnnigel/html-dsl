@@ -18,8 +18,6 @@ class HtmlDsl
      @result <<"</#{tag}>"
 
     end
-
+    
 
 end
-
-# load './sample-dsl-usage.rb'
