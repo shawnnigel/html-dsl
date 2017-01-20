@@ -1,3 +1,4 @@
+load './markup-dsl.rb'
 html=HtmlDsl.new do
   html do
     head do
@@ -9,4 +10,4 @@ html=HtmlDsl.new do
    end
  end
 
- p html.result
+ puts html.result
